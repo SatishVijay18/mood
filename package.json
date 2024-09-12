@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@clerk/nextjs": "^4.20.0",
+    "@google/generative-ai": "^0.17.2",
     "@neondatabase/serverless": "^0.9.4",
     "@prisma/adapter-neon": "^5.18.0",
     "@prisma/client": "^4.15.0",
@@ -28,7 +29,7 @@
     "next": "13.4.5",
     "postcss": "8.4.24",
     "react": "18.2.0",
-    "react-autosave": "^0.4.2",
+    "react-autosave": "^0.4.4",
     "react-dom": "18.2.0",
     "recharts": "^2.6.2",
     "swr": "^2.1.5",
