@@ -63,7 +63,7 @@ model EntryAnalysis {
 
   mood String @db.Text
   subject String @db.Text
-  negative Boolean
+  negative String
   summary String @db.Text
   color String @db.Text @default("#0101fe")
   sentimentScore Float
