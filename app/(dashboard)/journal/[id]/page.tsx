@@ -16,11 +16,7 @@ const getEntry = async (id) => {
     }
   })
 
-  return {
-    props: {
-      entry,
-    }
-  }
+  return entry
 }
 
 const EntryPage = async ({ params }) => {
